@@ -14,12 +14,13 @@ predict.py – loads the trained model and predicts the square of a given number
 The model learns to take a single floating-point input and output the approximated squared value.
 
 Project Structure
+<pre>
 Joachim-x2-net/
 │── train.py        # Trains the neural network
 │── predict.py      # Loads the model and predicts x²
 │── model.pth       # Saved model weights (created after training)
 │── README.md       # Documentation
-
+</pre>
 Model Architecture
 
 The neural network is a simple feedforward model:
