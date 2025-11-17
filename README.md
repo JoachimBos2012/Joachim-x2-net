@@ -60,7 +60,7 @@ pip install torch
 
 Run the training script:
 
-<pre> ```bash python3 train.py ``` </pre>
+<pre> python3 train.py </pre>
 
 
 This will:
