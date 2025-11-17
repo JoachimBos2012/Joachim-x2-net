@@ -38,7 +38,7 @@ Tanh is used because x² is a smooth nonlinear function. Tanh provides smooth, n
 Training Details
 
 The network is trained on:
-
+<pre>
 Inputs from 0.01 to 2.00 (generated as i/100)
 
 Targets computed as (i²)/10000
@@ -50,12 +50,12 @@ Optimizer: SGD
 Learning rate: 0.0001
 
 Epochs: 45,000
-
+</pre>
 Training will automatically save the model as model.pth after it finishes.
 
 How to Run the Project
 1. Install PyTorch (if not installed)
-pip install torch
+<pre> pip install torch </pre>
 
 2. Train the model
 
@@ -73,21 +73,25 @@ Train the neural network
 Save the trained weights to model.pth
 
 After training, you will see output like:
-
+<pre>
 Epoch: 44000 | Loss: 0.000002
-
+</pre>
 3. Run predictions
 
 Once model.pth exists, you can run:
 
-python3 predict.py
+<pre> python3 predict.py </pre>
 
 
-The script will ask you to enter a number, for example:
+The script uses a predefined input value:
+<pre>
+input_value = torch.tensor([[2.0]])
+</pre>
 
-Enter a number to square: 2
+Example output:
+<pre>
 The model predicted 3.9998 for the input 2
-
+</pre>
 Purpose of This Project
 
 This project is designed to show:
@@ -103,5 +107,6 @@ How to save and load model weights
 How to keep a clean and readable project layout
 
 License
-
+<pre>
 Released under the MIT License.
+</pre>
