@@ -24,7 +24,7 @@ Joachim-x2-net/
 Model Architecture
 
 The neural network is a simple feedforward model:
-
+<pre>
 Input layer: 1 neuron
 
 Hidden layer 1: 48 neurons, Tanh
@@ -32,7 +32,7 @@ Hidden layer 1: 48 neurons, Tanh
 Hidden layer 2: 32 neurons, Tanh
 
 Output layer: 1 neuron
-
+</pre>
 Tanh is used because x² is a smooth nonlinear function. Tanh provides smooth, non-zero gradients across the input range, making the curve easier for the network to approximate.
 
 Training Details
