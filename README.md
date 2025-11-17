@@ -106,7 +106,9 @@ How to save and load model weights
 
 How to keep a clean and readable project layout
 
+And ofcourse for you to play with it!
+
 License
 <pre>
-Released under the MIT License.
+Released under Apache 2.0 License.
 </pre>
