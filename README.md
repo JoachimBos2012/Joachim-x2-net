@@ -74,7 +74,7 @@ Save the trained weights to model.pth
 
 After training, you will see output like:
 <pre>
-Epoch: 44000 | Loss: 0.000002
+Epoch: 44000 | Loss: 0.2440168559551239
 </pre>
 3. Run predictions
 
